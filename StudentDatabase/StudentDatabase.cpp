@@ -1,6 +1,14 @@
 #include <iostream>
 
+class TestClass {
+public:
+    TestClass() {
+        std::cout << "Jedan" << std::endl;
+    }
+
+};
+
 int main()
 {
-    std::cout << "Beta Branch" << std::endl;
+    auto a = TestClass();
 }
