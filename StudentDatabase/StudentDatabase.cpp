@@ -17,6 +17,8 @@ private:
     //TODO
     void addStudent() {
     
+        auto newStudent = StudentEntry();
+
     }
 
     //TODO
